@@ -7,5 +7,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, (req, res) => {
-  console.log("Server started");
+  console.log("Server started at port:", PORT);
 });
